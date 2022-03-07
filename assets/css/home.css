@@ -1,0 +1,25 @@
+body {
+  width: 1140px;
+  height: 100vh;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ebebeb;
+}
+
+comments-list,
+send-message {
+  width: 100%;
+}
+
+@media screen and (max-width: 1115px) {
+  body {
+    width: 100% !important;
+
+    padding: 0 25px;
+  }
+}
